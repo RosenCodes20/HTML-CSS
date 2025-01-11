@@ -17,3 +17,7 @@ li {
 .services-description {
     background-color: cadetblue;
 }
+
+.li-image img {
+    border: 10px solid red;
+}
