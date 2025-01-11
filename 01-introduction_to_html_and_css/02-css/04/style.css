@@ -1,0 +1,19 @@
+li {
+    color: blue;
+}
+
+.home-li {
+    font-weight: bold;
+}
+
+.services-li {
+    font-style: italic;
+}
+
+.gt-lt {
+    color: red;
+}
+
+.services-description {
+    background-color: cadetblue;
+}
