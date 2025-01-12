@@ -1,0 +1,8 @@
+.author-paragraph {
+    color: gray;
+    font-style: italic;
+}
+
+.author-paragraph span {
+    font-weight: bold;
+}
