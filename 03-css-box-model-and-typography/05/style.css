@@ -1,0 +1,27 @@
+.fixed-height {
+    border: 2px solid black;
+    height: 200px;
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+
+.percentage-height {
+    border: 2px solid black;
+    height: 50%;
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+
+.viewport-height {
+    border: 2px solid black;
+    padding-left: 1em;
+    height: 50vh;
+    margin-bottom: 1em;
+}
+
+.min-max-height {
+    border: 2px solid black;
+    padding-left: 1em;
+    min-height: 100px;
+    max-height: 300px;
+}
