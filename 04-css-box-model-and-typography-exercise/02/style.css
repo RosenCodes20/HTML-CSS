@@ -1,0 +1,23 @@
+.wrapper-1 {
+    border: 1px solid green;
+    padding: 2em;
+}
+
+.wrapper {
+    border: 1px solid blue;
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+
+header, main, footer {
+    text-align: center;
+    border: 2px solid black;
+    padding: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, main {
+    margin-bottom: 2em;
+}

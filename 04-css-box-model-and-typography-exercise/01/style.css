@@ -1,0 +1,36 @@
+div:not(.box-model) {
+    position: relative;
+    border: 1px solid black;
+    padding: 2em;
+}
+
+.box-model {
+    width: 650px;
+    margin: 40px auto;
+}
+
+p:not(.content) {
+    position: absolute;
+    top: 0.5em;
+    left: 1em;
+}
+
+.content p {
+    text-align: center;
+}
+
+.content {
+    background-color: lightblue;
+}
+
+.border {
+    background-color: lightgoldenrodyellow;
+}
+
+.padding {
+    background-color: lightgreen;
+}
+
+.margin {
+    background-color: lightsalmon;
+}
