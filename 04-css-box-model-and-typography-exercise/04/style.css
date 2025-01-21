@@ -1,0 +1,45 @@
+.wrapper {
+    margin: 3em auto;
+    text-align: left;
+    background: #fff;
+    max-width: 400px;
+    border-radius: 0.5em;
+}
+
+.wrapper-2 {
+    padding: 1em 2em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+}
+
+.wrapper img {
+    width: 400px;
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.wrapper-2 .discover-link {
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-style: italic;
+    
+}
+
+.wrapper-2 .wrap {
+    margin-bottom: 1em;
+}
+
+.wrapper .long-text {
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+.wrapper-2 p:nth-child(3) {
+    font-weight: bold;
+}
