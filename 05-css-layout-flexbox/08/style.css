@@ -1,0 +1,36 @@
+.wrapper {
+    border: 1px solid blue;
+    padding: 0 1em 0 1em;
+    max-width: 300px;
+    display: flex;
+}
+
+.wrapper p {
+    border: 2px solid black;
+    background-color: #eee;
+    padding: 1em;
+}
+
+.wrap-1 p {
+    flex-grow: 0;
+}
+
+.wrap-2 p {
+    flex-grow: 1;
+}
+
+.wrap-3 p:nth-child(2) {
+    flex-grow: 1;
+}
+
+.wrap-4 p:nth-child(1){
+    flex-grow: 1;
+}
+
+.wrap-4 p:nth-child(2) {
+    flex-grow: 2;
+}
+
+.wrap-4 p:nth-child(3) {
+    flex-grow: 3;
+}
