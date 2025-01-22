@@ -1,0 +1,44 @@
+article a, .button {
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+    border-radius: 0.3em;
+    margin-right: 0.5em;
+    border: 1px solid lightgray;
+}
+
+.button {
+    padding: 1.5em;
+}
+
+article a i, .button i {
+    padding-right: 0.2em;
+}
+
+.wrap-2 {
+    margin-bottom: 2em;
+}
+
+article h2 {
+    margin-bottom: 1.5em;
+}
+
+article a:nth-child(1), .button .btn-1 {
+    background: lightgray;
+}
+
+article a:nth-child(2), .button:nth-child(5) {
+    background-color: orange;
+}
+
+article a:nth-child(3), button:nth-child(6) {
+    background-color: yellowgreen;
+}
+
+.button:nth-child(7) {
+    background: #fff;
+}
+
+article a:nth-child(5), .button:nth-child(8) {
+    background: lightgray;
+}

@@ -1,0 +1,10 @@
+details {
+    border: 1px solid lightgray;
+    padding: 1em;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+details:first-child {
+    margin-top: 2em;
+}

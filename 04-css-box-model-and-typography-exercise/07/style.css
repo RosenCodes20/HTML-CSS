@@ -1,0 +1,22 @@
+.wrapper {
+    padding-top: 1em;
+    padding-left: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper h2 {
+    margin-bottom: 0;
+}
+
+
+.wrap-2 {
+    display: flex;
+    font-size: 1.4em;
+}
+
+.wrap-2 p {
+    background-color: lightgray;
+    margin-right: 0.5em;
+    padding: 0.8em;
+    border-radius: 100%;
+}
