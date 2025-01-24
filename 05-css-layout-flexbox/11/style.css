@@ -1,0 +1,30 @@
+.wrapper {
+    border: 1px solid blue;
+    padding: 0 1em 0 1em;
+    max-width: 300px;
+    display: flex;
+    min-height: 300px;
+    align-items: flex-start;
+}
+
+.wrapper p {
+    border: 2px solid black;
+    background-color: #eee;
+    padding: 1em;
+}
+
+.wrap-1 p:nth-child(2) {
+    align-self: flex-start;
+}
+
+.wrap-2 p:nth-child(2) {
+    align-self: center;
+}
+
+.wrap-3 p:nth-child(2) {
+    align-self: flex-end;
+}
+
+.wrap-4 p:nth-child(2) {
+    align-self: baseline;
+}
