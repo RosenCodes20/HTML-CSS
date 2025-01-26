@@ -1,0 +1,45 @@
+.wrapper {
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.3);
+    background: white;
+    display: flex;
+    border: 1px solid gray;
+    margin: 4em auto;
+    max-width: 1100px;
+}
+
+.workweek-p, .weekend {
+    border: 1px solid black;
+    padding: 2em;
+    text-align: center;
+}
+
+.workweek, .weekend-wrapper {
+    display: flex;
+}
+
+.workweek p, .weekend-wrapper p  {
+    padding: 2em;
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.weekend-wrapper p {
+    text-align: center;
+}
+
+main {
+    flex-grow: 2;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-grow: 1;
+}
+
+aside p {
+    padding: 2em;
+    border: 1px solid black;
+    flex-grow: 1;
+}
