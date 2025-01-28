@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 2em;
+    padding: 2em;
+}
+
+main {
+    flex-grow: 1;
+}
+
+header, main, footer {
+    border: 2px solid blue;
+    padding: 2em;
+}
