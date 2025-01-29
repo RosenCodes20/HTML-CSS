@@ -43,3 +43,16 @@
     text-align: center;
 }
 
+.enter-2 {
+    padding: 1.5em;
+    background: lightgray;
+    position: absolute;
+    left: 85%;
+    top: 19%;
+    min-width: 63.5px;
+    border-top: 0;
+}
+
+.rows .item:active, .enter-2:active, .space:active {
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 1);
+}
