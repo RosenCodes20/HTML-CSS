@@ -1,0 +1,45 @@
+.keyboard-wrapper {
+    /* display: flex; */
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    background-color: white;
+    /* flex-direction: column; */
+    margin: 6em auto;
+    max-width: 840px;
+    padding: 1em;
+    /* padding-left: 1.5em; */
+    background: #999;
+    border-radius: 0.3em;
+}
+
+.rows {
+    display: flex;
+    gap: 1em;
+}
+
+.rows .item {
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+.rows .item:not(.special) {
+    background: white;
+}
+
+.special {
+    background: lightgray;
+}
+
+.space {
+    background: lightgray;
+    flex-grow: 1;
+    border-radius: 0.3em;
+    
+}
+
+.sixth-row .shift, .backspace, .tab, .enter, .caps-lock {
+    flex-grow: 1;
+    text-align: center;
+}
+
