@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <link rel="stylesheet" href="../additional-resourcses/_style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Media Feature - width, min-width, max-width</h2>
+
+    <h3>width</h3>
+
+<code> 
+<pre>        
+    @media (width: 800px) {
+        body::before {
+        display: block;
+        content: 'The viewport width is exactly 800px';
+        }
+    }       
+</pre>       
+</code>
+
+    <h3>min-width</h3>
+    
+<code>
+<pre>        
+    @media (min-width: 800px) {
+        body::before {
+        display: block;
+        content: 'The viewport width is larger than 800px';
+        }
+    }            
+</pre>
+</code>    
+    <h3>max-width</h3>
+
+<code>
+<pre>     
+    @media (max-width: 800px) {
+        body::before {
+        display: block;
+        content: 'The viewport width is smaller than 800px';
+        }
+    }    
+</pre>    
+</code>      
+
+</body>
+</html>
