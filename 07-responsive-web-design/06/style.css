@@ -1,0 +1,55 @@
+body {
+    padding: 1em 2em;
+}
+
+body::before {
+        background: #369;
+        color: white;
+        padding: 1em;
+        display: block;
+        margin-bottom: 1.5em;
+        border-radius: 0.3em;
+        box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-top: 1em;
+}
+
+p:not(h3 + p, h2 + p) {
+    margin: 1em 0;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+h3:not(:first-child) {
+    margin-top: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 30em) and (orientation: landscape) {
+    body::before {
+    display: block;
+    content: 'The viewport width is larger than 30em and the orientation is landscape.';
+    }
+}
+
+@media (min-height: 680px), screen and (orientation: portrait) {
+    body::before {
+    display: block;
+    content: 'The viewport height is larger than 680px or the media type is screen and the orientation is portrait.';
+    }
+}
+
+@media not (min-width: 600px) {
+    body::before {
+    display: block;
+    content: 'The view port is NOT larger than 600px';
+    }
+} 

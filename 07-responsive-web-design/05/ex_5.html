@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+    <link rel="stylesheet" href="../additional-resourcses/_style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Media Feature - Hover</h2>
+
+    <h3>none</h3>
+    <p>The primary input mechanism cannot hover at all or cannot conveniently hover (e.g., many mobile devices emulate hovering when the user performs an inconvenient long tap), or there is no primary pointing input mechanism.</p>
+
+<code> 
+<pre>        
+    @media (hover: none) {
+        body::before {
+        display: block;
+        content: 'The device does NOT support hover';
+        }
+    }
+</pre>       
+</code>
+
+    <h3>hover</h3>
+    <p>The primary input mechanism can conveniently hover over elements.</p>
+    
+<code>
+<pre>        
+    @media (hover: hover) {
+        body::before {
+        display: block;
+        content: 'The device does support hover';
+        }
+    }
+</pre>
+</code>   
