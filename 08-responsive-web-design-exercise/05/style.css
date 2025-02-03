@@ -1,0 +1,87 @@
+.wrapper {
+    background: #fff;
+    border-radius: 0.3em;
+    max-width: 1100px;
+    margin: 2em auto;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    padding: 2em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 2em;
+}
+
+nav ul li {
+    display: block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: lightgray;
+    padding: 1em 1.5em;
+    color: black;
+    text-align: center;
+    border-radius: 0.3em;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    cursor: pointer;
+    background: black;
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    margin-bottom: 1em;
+    min-width: 20ch;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 220%;
+    left: -6%;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul ul li:hover ul {
+    left: initial;
+    right: 100%;
+    top: 0;
+}
+
+@media (max-width: 800px) {
+
+    .wrapper {
+        max-width: 500px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 3em;
+    }
+    
+    nav ul a {
+        max-width: 90px;
+    }
+
+    nav ul li:hover > ul {
+        display: none;
+    }
+}
