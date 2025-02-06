@@ -41,12 +41,13 @@
     .home-stats {
         display: flex;
         flex-direction: column;
-        border: 1px solid black;
-        min-height: 220vh;
+        margin-top: 55em;
         padding: 0;
         max-width: 500px;
         justify-content: flex-end;
         align-items: center;
+        text-align: center;
+        font-size: 24px;
     }
 
     .home-hero {
