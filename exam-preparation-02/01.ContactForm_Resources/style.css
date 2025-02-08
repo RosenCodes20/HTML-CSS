@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+article {
+    display: flex;
+    height: 100vh;
+    gap: 2em;
+    justify-content: center;
+    margin: 1em auto;
+}
+
+article > div > section > .message-input input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+article h1 {
+    letter-spacing: 0.3em;
+    font-size: 1em;
+}
+
+article > div > a {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+}
+
+.message-input {
+    margin-bottom: 1.5em;
+}
+
+.icons-wrap {
+    display: flex;
+    max-width: 250px;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+.icons-wrap i {
+    border: 1px solid #999;
+    padding: 0.5em 1em;
+}
+
+
+input {
+    padding: 1em 3em;
+}
+
+input[type=text], input[type=email] {
+    border: none;
+    border-bottom: 1px solid #999;
+}
+
+input::placeholder {
+    text-align: left;
+}
+
+.name-email-input {
+    margin-bottom: 2em;
+}
+
+
+footer {
+    margin-top: 2em;
+    color: gray;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+footer a {
+    color: black;
+    font-weight: bold;
+}
