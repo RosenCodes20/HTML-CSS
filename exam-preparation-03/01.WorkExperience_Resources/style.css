@@ -1,0 +1,91 @@
+
+article {
+    display: flex;
+    gap: 1em;
+    margin: 3em auto;
+    max-width: 1100px;
+    /* border: 1px solid black; */
+    justify-content: center;
+}
+
+article > section:first-child {
+    /* background: white; */
+    flex-grow: 1;
+    padding: 0.5em 1em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+article > section:first-child ul li {
+    display: block;
+}
+
+article > section:first-child ul li:not(:last-child) {
+    margin-bottom: 0.5em;
+}
+
+article > section:first-child hr {
+    margin-bottom: 0.5em;
+}
+
+article > section:first-child ul li i {
+    margin-right: 1em;
+    color: blue;
+}
+
+article > section:first-child p:not(:last-child) {
+    margin-bottom: 0.5em;
+}
+
+article > section:first-child p:last-child {
+    margin-bottom: 2em;
+}
+
+article > section:first-child ul {
+    margin: 1em 0;
+}
+
+article > section:last-child {
+    max-width: 700px;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    /* background: white; */
+    padding: 3em 1.5em;
+    
+}
+
+.ninety-percent, 
+.eighty-percent, 
+.seventy-five-percent,
+.fifty-percent {
+    background: #369;
+    text-align: center;
+    color: white;
+    border-radius: 1em;
+}
+
+.ninety-percent {
+    max-width: 330px;
+}
+
+.eighty-percent {
+    max-width: 290px;
+}
+
+.seventy-five-percent {
+    max-width: 270px;
+}
+
+.fifty-percent {
+    max-width: 190px;
+}
+
+article > section:last-child p {
+    margin: 0.5em 0;
+}
+
+article > section:last-child h2 {
+    text-align: center;
+}
+
+.dates {
+    color: blue;
+}
