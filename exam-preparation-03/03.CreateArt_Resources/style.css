@@ -123,14 +123,36 @@ article + article p, section + article p {
 }
 
 article + section {
-    display: flex;
-    align-items: center;
+    position: relative;
 }
 
 article + section hr {
     flex-grow: 1;
     border: 1px solid lightgray;
     box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+.wrap {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.wrap-1 {
+    position: absolute;
+    top: -5em;
+}
+
+.wrap-2 {
+    position: absolute;
+    top: -12em;
+}
+
+section + article {
+    margin-top: 5em;
+    margin-bottom: 7em;
 }
 
 article + section img {
@@ -178,6 +200,7 @@ section + main > h4:last-of-type {
 main + section {
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 1.5em;
 }
 
 main + section > form {
@@ -200,4 +223,30 @@ main + section > form input::placeholder, main + section > form textarea::placeh
     font-family: "Playwrite PE", serif;
     color: #fff;
     font-size: 0.8em;
+}
+
+section + footer {
+    background: #369;
+}
+
+section + footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    font-size: 0.9em;
+    padding-top: 3em;
+    color: white;
+}
+
+section + footer ul li {
+    display: block;
+}
+
+section + footer p {
+    text-align: center;
+    color: white;
+    font-size: 0.6em;
+    margin: 0.5em 0;
+    padding-top: 1em;
+    padding-bottom: 3em;
 }
