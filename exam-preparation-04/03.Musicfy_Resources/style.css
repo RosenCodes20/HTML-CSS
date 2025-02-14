@@ -1,0 +1,218 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    gap: 2.5em;
+    padding-right: 1em;
+}
+
+header nav ul li {
+    display: block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header img {
+    width: 100px;
+}
+
+header + section {
+    text-align: center;
+    background: #1EBA54;
+    color: white;
+    min-height: 21dvh;
+    position: relative;
+    margin-bottom: 25em;
+}
+
+header + section h4 {
+    padding-top: 2em;
+    font-size: 1.2em;
+}
+
+main > article, main > article {
+    margin: 5em;
+    border: 1px solid black;
+    max-width: 400px;
+    border-radius: 0.5em;
+    flex: 1 0 500px;
+    background: #FFFFFF;
+}
+
+main > article h2, main > article h2 {
+    margin-bottom: 2em;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+main > article ul, main > article ul {
+    margin-bottom: 2em;
+    list-style-type: circle;
+    max-width: 260px;
+    margin: 0 auto;
+}
+
+main > article a, main > article a {
+    background: #1EBA54;
+    padding: 0.5em 2em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0.8em;
+    width: 100%;
+}
+
+.a-wrap {
+    text-align: center;
+    padding-top: 2em;
+}
+
+main > article > section, main > article > section {
+    margin-top: 1.5em;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+main > article:first-of-type > section p:first-of-type {
+    border-right: 1px solid white;
+}
+
+main > article > section p, article + article > section p {
+    padding: 0.8em;
+}
+
+main {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 7%;
+    width: 100%;
+    z-index: 2;
+}
+
+.img-wrapper img {
+    width: 650px;
+    position: absolute;
+    top: 10%;
+}
+
+main + article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 600px;
+    gap: 3em;
+    margin-bottom: 1em;
+}
+
+main + article img {
+    width: 350px;
+}
+
+main + article > section h3 {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+.p-wrapper {
+    max-width: 820px;
+}
+
+main + article > section .p-wrapper p:nth-child(2) {
+    margin: 1em 0;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: em;
+}
+
+.foot-wrapper article {
+    flex-grow: 1;
+    width: 70%;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.foot-wrapper article h1 {
+    font-size: 2.5em;
+}
+
+.foot-wrapper article p {
+    margin-top: 2em;
+    font-size: 0.9em;
+}
+
+table {
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.foot-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 15dvh;
+}
+
+tr:nth-child(even) {
+    background: #82D8A0;
+}
+
+td {
+    padding: 0.5em;
+}
+
+tr:nth-child(odd) {
+    background: #CCCBCB;
+}
+
+.fa-solid {
+    font-size: 1.3em;
+}
+
+.fa-check {
+    color: green;
+}
+
+.fa-x {
+    color: red;
+}
