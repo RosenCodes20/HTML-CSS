@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(255,112,136,1) 20%, rgba(242,181,157,1) 47%);
+    min-height: 300px;
+    margin-bottom: 3em;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding-bottom: 3em;
+}
+
+header nav ul li {
+    display: block;
+    padding: 1em;
+    font-size: 0.7em;
+}
+
+header nav ul li:nth-child(3) {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1em 3.5em;
+    border-radius: 0.3em;
+    border: 0.2px solid white;
+    border-top: none;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header section {
+    text-align: center;
+    color: #FFFEFE;
+}
+
+header section h2 {
+    margin-bottom: 0.5em;
+}
+
+header section p {
+    margin-bottom: 3em;
+}
+
+header section a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 0.8em 1.5em;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+
+header + article {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 4em;
+    color: gray;
+    flex-direction: column;
+}
+
+header + article .img-section {
+    display: flex;
+    border: 1px solid #eee;
+    max-width: 100%;
+    max-height: 300px;
+    justify-content: center;
+    gap: 2em;
+    background: #eee;
+    border-radius: 0.3em;
+}
+
+header + article section:last-of-type {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+
+header + article section:last-of-type > section {
+    display: flex;
+    flex-direction: column;
+}
+
+header + article section:last-of-type > section:first-of-type {
+    padding-right: 2em;
+}
+
+header + article .img-section img {
+    width: 545px;
+    height: 300px;
+    background: #F7F8FB;
+}
+
+header + article p {
+    margin: 1em 0;
+    max-width: 545px;
+    margin-bottom: 2.5em;
+}
+
+header + article a {
+    border: 1px solid #DFE2E5;
+    text-decoration: none;
+    color: gray;
+    padding: 0.8em 1.5em;
+    border-radius: 0.3em;
+}
+
+.a-wrapper {
+    text-align: center;
+}
+
+article + section img {
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+
+article + section {
+    margin-bottom: 5em;
+}
+
+section + aside {
+    position: absolute;
+    top: 95%;
+    left: 33%;
+    color: white;
+    display: flex;
+    gap: 2em;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5em 2em;
+    border-radius: 0.3em;
+    align-items: center;
+    border: 0.2px solid white;
+}
+
+section + aside p {
+    font-size: 1.2em;
+}
+
+section + aside a {
+    text-decoration: none;
+    color: gray;
+    background: white;
+    padding: 0.8em 2em;
+    border-radius: 0.3em;
+}
+
+aside + article {
+    text-align: center;
+    margin-bottom: 6em;
+}
+
+aside + article img {
+    width: 300px;
+}
+
+aside + article > section:first-of-type {
+    margin-bottom: 2em;
+}
+
+aside + article > section:first-of-type h2 {
+    margin-bottom: 2em;
+    color: #6C6C6F;
+}
+
+aside + article > section:first-of-type a {
+    border: 1px solid #DFE2E5;
+    text-decoration: none;
+    color: #6C6C6F;
+    padding: 0.8em 1.5em;
+    border-radius: 0.3em;
+}
+
+aside + article > section:last-of-type {
+    background: #F7F8FB;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    border: 0.2px solid #eee;
+}
+
+article + footer {
+    background: #F6F7FA;
+    text-align: center;
+    border: 0.1px solid gray;
+}
+
+article + footer > section, article + footer > p:last-of-type {
+    padding: 5em 0;
+}
+
+article + footer > section h2 {
+    margin-bottom: 0.8em;
+    color: gray;
+}
+
+article + footer > section p {
+    color: red;
+    font-size: 1.2em;
+}
+
+article + footer > section {
+    padding-bottom: 7em;
+}
+
+article + footer hr {
+    border: 0.2px solid #DEE2E7;
+    color: #eee;
+    max-width: 870px;
+    margin: 0 auto;
+}
+
+article + footer > p:last-of-type {
+    color: #999;
+    font-size: 0.9em;
+}
